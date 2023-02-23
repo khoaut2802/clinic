@@ -2,7 +2,7 @@
 const nextConfig = {
     reactStrictMode: false,
     trailingSlash: true,
-    basePath: process.env.NODE_ENV === 'production' ? '/' : '',
+    basePath: process.env.NODE_ENV === 'production' ? '' : '',
     publicRuntimeConfig: {
         contextPath: process.env.NODE_ENV === 'production' ? '/clinic' : '',
         uploadPath: process.env.NODE_ENV === 'production' ? '/clinic/upload.php' : '/api/upload'
