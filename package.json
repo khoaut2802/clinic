@@ -1,6 +1,6 @@
 {
-    "name": "sakai-react",
-    "version": "8.0.1-SNAPSHOT",
+    "name": "taka-clinic",
+    "version": "1.0.1",
     "private": false,
     "scripts": {
         "dev": "next dev",
