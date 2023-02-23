@@ -38,7 +38,7 @@ const Medicine = () => {
                         dataKey="id" paginator rows={10} rowsPerPageOptions={[5, 10, 25]}
                         paginatorTemplate="FirstPageLink PrevPageLink PageLinks NextPageLink LastPageLink CurrentPageReport RowsPerPageDropdown"
                         currentPageReportTemplate="Hiển thị {first} tới {last} của {totalRecords} thuốc" responsiveLayout="scroll">
-                        <Column field="name" header="Tên thuốc" sortable style={{ minWidth: '12rem' }}></Column>
+                        <Column field="name" header="Tên thuốc f" sortable style={{ minWidth: '12rem' }}></Column>
                         <Column field="instruction" header="Hướng dẫn" sortable style={{ minWidth: '16rem' }}></Column>
                         <Column field="purchase_price" sortable header="Giá nhập"></Column>
                         <Column field="sale_price" header="Giá bán" style={{ minWidth: '8rem' }}></Column>
