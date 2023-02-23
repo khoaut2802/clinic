@@ -5,7 +5,7 @@ const DepartmentRoom = () => {
 
     return (
         <Card>
-            Phòng chuyên khoa
+            CRUD phòng chuyên khoa
         </Card>
     )
 }
