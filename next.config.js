@@ -4,8 +4,8 @@ const nextConfig = {
     trailingSlash: true,
     basePath: process.env.NODE_ENV === 'production' ? '' : '',
     publicRuntimeConfig: {
-        contextPath: process.env.NODE_ENV === 'production' ? '/clinic' : '',
-        uploadPath: process.env.NODE_ENV === 'production' ? '/clinic/upload.php' : '/api/upload'
+        contextPath: process.env.NODE_ENV === 'production' ? '' : '',
+        uploadPath: process.env.NODE_ENV === 'production' ? '/upload.php' : '/api/upload'
     }
 };
 
